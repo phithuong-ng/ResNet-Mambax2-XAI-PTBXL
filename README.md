@@ -40,8 +40,6 @@ Hệ thống học sâu được thiết kế theo dạng nối tầng:
 
 ## 📂 3. Cấu trúc thư mục (Project Structure)
 
-Tuân thủ nghiêm ngặt chuẩn mực tổ chức mã nguồn nghiên cứu:
-
 ```text
 .
 ├── 01_Slide/          # Slide báo cáo PDF/PPTX
@@ -54,7 +52,9 @@ Tuân thủ nghiêm ngặt chuẩn mực tổ chức mã nguồn nghiên cứu:
 ├── 04_Datasets/       # Dữ liệu PTB-XL & Script tải dữ liệu tự động
 └── 05_References/     # Các bài báo tham khảo Q1/Q2 (PDFs)
 
-### 4. EXPERIMENTAL RESULTS AND CLINICAL EVALUATION
+
+
+## 4. EXPERIMENTAL RESULTS AND CLINICAL EVALUATION
 
 **A. Quantitative Performance Analysis and Baseline Comparison**
 
@@ -86,7 +86,7 @@ Bảng I trình bày hiệu năng so sánh giữa kiến trúc ResNet1D cơ sở
 
 ---
 
-### 5. CONCLUSION AND FUTURE DIRECTIONS
+## 5. CONCLUSION AND FUTURE DIRECTIONS
 
 **A. Research Summary**
 
