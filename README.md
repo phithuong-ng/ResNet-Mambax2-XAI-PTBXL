@@ -52,7 +52,7 @@ Hệ thống học sâu được thiết kế theo dạng nối tầng:
 ├── 04_Datasets/       # Dữ liệu PTB-XL & Script tải dữ liệu tự động
 └── 05_References/     # Các bài báo tham khảo Q1/Q2 (PDFs)
 
-
+```
 
 ## 4. EXPERIMENTAL RESULTS AND CLINICAL EVALUATION
 
@@ -73,6 +73,7 @@ Bảng I trình bày hiệu năng so sánh giữa kiến trúc ResNet1D cơ sở
 | **AUC - STTC** | 0.9264 | **0.9350** | N/A |
 | **AUC - CD** | 0.9077 | **0.9160** | N/A |
 | **AUC - HYP** | 0.8961 | **0.9010** | N/A |
+
 
 *Biện luận lâm sàng:* Mặc dù Macro F1-score (0.7380) của chúng tôi thấp hơn Kanos (2025), nhưng đây là một sự đánh đổi kỹ thuật có tính toán. Kanos sử dụng tần số 500Hz và chuẩn hóa biên độ từng đạo trình. Ngược lại, khung RMCN hoạt động ở 100Hz và giữ nguyên biên độ vật lý (mV). Việc chuẩn hóa sẽ phá hủy các dấu hiệu điện thế tuyệt đối cần thiết để chẩn đoán Phì đại tâm thất (HYP). Chỉ số Macro AUC > 0.91 trên tất cả các lớp khẳng định rằng mạng RMCN đã trích xuất thành công các đặc trưng chẩn đoán cực kỳ mạnh mẽ.
 
