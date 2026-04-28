@@ -17,7 +17,6 @@ Dự án này tập trung giải quyết bài toán chẩn đoán đa nhãn (Mul
 - **Hybrid Architecture:** Kết hợp ResNet (Local Perception) để quét vi mô hình thái sóng và Mamba (Global Context) để liên kết nhịp điệu toàn cục.
 - **Clinical Integrity:** Quy trình tiền xử lý tuyệt đối bảo toàn biên độ vật lý (mV) để phục vụ chẩn đoán bệnh lý thay đổi điện thế như Phì đại tâm thất (HYP).
 - **XAI Integrated:** Minh bạch hóa mô hình bằng bản đồ nhiệt Grad-CAM và SHAP, ánh xạ trực tiếp vùng chẩn đoán lên sóng thô (Raw waveform).
-- **Edge-AI Ready:** Tối ưu hóa hiệu suất tính toán cho các thiết bị nhúng và FPGA tại Lab EDABK.
 
 ---
 
